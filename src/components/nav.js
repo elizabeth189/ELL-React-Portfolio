@@ -24,8 +24,8 @@ function Navbar(props) {
     
             {/* Add your menu items */}
             <ul className='justify-center md:text-xl'>
-                    <li className='flex justify-center p-1 hover:opacity-70'><a className='ml-1 text-white' href="/" onClick={setClose}>HOME</a></li>
-                    <li className='flex justify-center p-1 hover:opacity-70'><a className='ml-1 text-white' href="/about"  onClick={setClose}>About Me</a></li>
+                    {/* <li className='flex justify-center p-1 hover:opacity-70'><a className='ml-1 text-white' href="/" onClick={setClose}>HOME</a></li> */}
+                    <li className='flex justify-center p-1 hover:opacity-70'><a className='ml-1 text-white' href="/"  onClick={setClose}>About Me</a></li>
                   
     <>
                     <li className='flex justify-center p-1 hover:opacity-70'><a className='ml-1 text-white' href="/portfolio">Portfolio</a></li>
@@ -62,20 +62,7 @@ function Navbar(props) {
             </div>
             <div className='hidden lg:flex lg:justify-center lg:w-full'>
                 <ul className='lg:w-[85%] text-white'>
-                    <div className={`flex justify-evenly`}>
-                    <a className={`my-5 pl-12 xl:pl-24 hover:text-[#BF4D49]`} href="/">HOME</a>
-                    <a className={`my-5 hover:text-[#BF4D49]`} href="/about">About Me</a>
-                    
-                    {
-  
-    <>
-                    <a className={`my-5 hover:text-[#BF4D49]`} href='/contact'>Contact</a>
-                    <a className={`my-5 hover:text-[#BF4D49]`} href='/portfolio'>Portfolio</a>
-                    <a className={`my-5 hover:text-[#BF4D49]`} href='/resume'>Resume</a>
-                    </>
-  
-}     
-                    </div>
+                    {/*  */}
                 </ul>
             </div>    
         </ul>

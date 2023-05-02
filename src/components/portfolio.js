@@ -38,14 +38,6 @@ const Portfolio = () => {
             JS Coding Quiz{" "}
           </p>
 
-          <div className="flex justify-center pb-3 pt-2 md:order-1 md:w-1/2 md:items-center md:pt-0 md:pb-0 md:pr-2 lg:pr-0 md:hidden">
-            <img
-              className=" w-full object-cover md:w-[426px] md:h-auto lg:w-full lg:max-w-[600px]"
-              src={codingquiz}
-              alt="codingquiz"
-            />
-          </div>
-
           <p className="w-[95%] text-s leading-5 text-center text-[#2B2A64] pt-1 pb-4 md:h-auto md:pb-4 lg:text-xl">
           <a
             href="https://github.com/elizabeth189/ELLCodingQuiz"
@@ -77,13 +69,6 @@ const Portfolio = () => {
           Group Project 1
         </p>
 
-        <div className="flex justify-center pb-3 pt-2 md:order-1 md:w-1/2 md:items-center md:pt-0 md:pb-0 md:pr-2 lg:pr-0 md:hidden">
-          <img
-            className=" w-full object-cover md:w-[426px] md:h-auto lg:w-full lg:max-w-[600px]"
-            src={showmesongs}
-            alt="showmesongs"
-          />
-        </div>
 
         <p className="w-[95%] text-s leading-5 text-center text-[#2B2A64] pt-1 pb-4 md:h-auto md:pb-4 lg:text-xl">
           {" "}
@@ -117,13 +102,6 @@ const Portfolio = () => {
           Wather App
         </p>
 
-        <div className="flex justify-center pb-3 pt-2 md:order-1 md:w-1/2 md:items-center md:pt-0 md:pb-0 md:pr-2 lg:pr-0 md:hidden">
-          <img
-            className="w-full object-cover md:w-[426px] md:h-auto lg:w-full lg:max-w-[600px]"
-            src={weather}
-            alt="weather"
-          />
-        </div>
 
         <p className="w-[95%] text-s leading-5 text-center text-[#2B2A64] pt-1 pb-4 md:h-auto md:pb-4 lg:text-xl">
         <a
@@ -156,13 +134,6 @@ const Portfolio = () => {
             GroupProject{" "}
           </p>
 
-          <div className="flex justify-center pb-3 pt-2 md:order-1 md:w-1/2 md:items-center md:pt-0 md:pb-0 md:pr-2 lg:pr-0 md:hidden">
-            <img
-              className=" w-full object-cover md:w-[426px] md:h-auto lg:w-full lg:max-w-[600px]"
-              src={proj3}
-              alt="proj3"
-            />
-          </div>
 
           <p className="w-[95%] text-s leading-5 text-center text-[#2B2A64] pt-1 pb-4 md:h-auto md:pb-4 lg:text-xl">
           <a

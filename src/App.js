@@ -18,8 +18,8 @@ function App() {
 
     <div className="">
  {/* <Nav/> */}
-<About/>
-   
+{/* <About/>
+    */}
 
       <Router>
         <>
@@ -31,7 +31,7 @@ function App() {
               element={<Home/>} 
             /> */}
             <Route 
-              path="/about" 
+              path="/" 
               element={<About/>} 
             />
              <Route 
@@ -46,10 +46,10 @@ function App() {
               path="/resume" 
               element={<Resume/>} 
             />
-            <Route 
+            {/* <Route 
               path='*' 
               element={<h1 className="display-2">Wrong page!</h1>}
-            />
+            /> */}
           </Routes>
         </>
       </Router>
