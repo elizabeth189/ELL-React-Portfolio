@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 //   ApolloProvider,
 // } from '@apollo/client';
 
-import Nav from './components/nav'
+// import Nav from './components/nav'
 // import pages pages
 import About from './components/about';
 import Resume from './components/resume';
